@@ -1,3 +1,6 @@
+#we are fingding mean,median,mode,standard_Deviation,confidence interval for aplha =0.05 using zscore,variance
+
+
 def get_statistics(input_list):
     sorted_input=sorted(input_list)#while finding the median we need to first sort the input
     input_length=len(sorted_input)#there are two cases for median depening on odd lenght and even lenght array
